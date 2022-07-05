@@ -1,0 +1,144 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@font-face {
+    font-family: 'Splash';
+    src: url(Splash/Splash-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Abel';
+    src: url(Abel/Abel-Regular.ttf);
+}
+
+
+* {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Splash', cursive;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(red, yellow, green, black);
+    text-align: center;
+
+}
+
+#hero-banner {
+    background-image: url("img/hararenightview.jpg");
+    margin-top: -60px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 340px;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid yellowgreen;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.visit-harare {
+    font-size: 90px;
+    font-family: 'Splash';
+    color: #CD3737;
+    padding-top: 50px;
+    text-shadow: 0 0 5px yellow;
+}
+
+.blurb {
+    margin-top: -50px;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Abel';
+    text-shadow: 0px 0px 10px black;
+}
+
+p {
+    font-family: 'Abel';
+    font-weight: 600;
+    text-shadow: 0 0 3px white;
+}
+
+.balancing-rocks,
+.jacaranda,
+.harare-park {
+    height: 250px;
+    width: 200px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(green, yellow, red, black);
+    align-items: center;
+    text-align: center;
+    border-bottom: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px white;
+}
+
+
+#flag {
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 0;
+    height: 150px;
+    width: 150px;
+}
+
+h3 {
+    font-family: 'Abel';
+    color: white;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.standout {
+    font-family: 'Abel';
+    border-bottom: 3px dotted red;
+    font-style: italic;
+    color: greenyellow;
+    text-shadow: 0px 0px 5px black;
+}
+
+
+.guide-title {
+    margin-bottom: -30px;
+    color: #222;
+}
+
+.sites {
+    font-size: 25px;
+    color: red;
+    text-shadow: 5px 0 8px white;
+}
